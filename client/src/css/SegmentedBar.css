@@ -1,0 +1,25 @@
+.chart {
+    height: 2rem;
+    width: 30rem;
+    display:flex;
+    margin: 0 auto;
+  }
+  
+  .chart div {
+    height: 100%;
+    /*float: left;*/
+    transition-property: width;
+    transition-duration: 0.5s;
+  }
+  
+  .chart .start {
+    border-radius: 2rem 0 0 2rem;
+  }
+  
+  .chart .end {
+    border-radius: 0 2rem 2rem 0;
+  }
+
+  .chart .pill {
+    border-radius: 2rem 2rem 2rem 2rem;
+  }
